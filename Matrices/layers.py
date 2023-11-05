@@ -14,5 +14,3 @@ np.asarray(C)
 print('Layer:\n',C)
 print('numpy:\n',np.matmul(A,B))
 
-
-# print(C[1])

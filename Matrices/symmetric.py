@@ -1,5 +1,4 @@
 import numpy as np
-
 n = 4
 
 N = np.random.randint(0,11,(n,n)) # non-symmetric
@@ -22,3 +21,4 @@ print(N.T@w)
 print(w@N)
 print(w.T@N.T)
 print(w.T@N)
+

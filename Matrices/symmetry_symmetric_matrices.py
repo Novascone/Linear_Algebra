@@ -21,11 +21,11 @@ C_sum = AS + BS
 C_prod = AS@BS
 C_hada = AS*BS
 
-# sum is still symmetric
+# sum is santil symmetric
 print('Symmetic?: \n', C_sum - C_sum.T), print(' ')
 # product is not symmetric
 print('Symmetic?: \n', C_prod - C_prod.T), print(' ')
-# hadamard is still symmetric 
+# hadamard is santil symmetric 
 print('Symmetic?: \n', C_hada - C_hada.T), print(' ')
 
 

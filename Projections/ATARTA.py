@@ -9,3 +9,9 @@ Q,R = np.linalg.qr(A,'complete')
 
 print('A.T@A: \n', A.T@A)
 print('R.T@R: \n', R.T@R)
+
+print('----------')
+print((A@A).T)
+print(A.T@A.T)
+print('----------')
+print('A inverse times A; \n',np.linalg.inv(A)@A)

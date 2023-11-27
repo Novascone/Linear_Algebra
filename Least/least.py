@@ -7,10 +7,15 @@ n = 3
 # create data
 
 A = np.random.randint(0,6,size=(m,n))
-b = np.random.randint(0,6,size=(m,1))
+b = np.random.ran
+
+
+dint(0,6,size=(m,1))
 
 # Ab = Matrix( np.concatenate([A, b], axis=1))
 # print((Ab.rref()))
+
+
 
 # normal equations
 AtA = A.T@A

@@ -23,6 +23,15 @@ plt.legend()
 plt.title('Av')
 plt.show()
 
+plt.plot([0, evecs[0,1]],[0,evecs[1,1]],'b',linewidth=4,label='$v_2$')
+plt.plot([0, Bv[0]],[0,Bv[1]],'y--',linewidth=2,label='$Bv_2$')
+plt.xlim([-3,3]), plt.ylim([-3,3])
+plt.plot([-3,3],[0,0],'y:')
+plt.plot([0,0],[-3,3],'y:')
+plt.legend()
+plt.title('Bv')
+plt.show()
+
 
 plt.plot([0, evecs[0,1]],[0,evecs[1,1]],'b',linewidth=4,label='$v_2$')
 plt.plot([0, BinvAv[0]],[0,BinvAv[1]],'y--',linewidth=2,label='B$^{-1}$Av')

@@ -27,3 +27,5 @@ A = np.random.randn(3,3)
 
 print(np.sort(np.linalg.eig(A)[0]))
 print(np.sort(np.linalg.svd(A)[1]))
+
+# eigenvalues and singular values are not the same

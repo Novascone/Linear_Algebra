@@ -17,7 +17,7 @@ A = sp.signal.convolve2d(np.random.randn(m,n),g2d,'same')
 
 
 
-# svd V comes out as transposed
+# svd, V comes out as transposed
 
 U,s,V = np.linalg.svd(A)
 

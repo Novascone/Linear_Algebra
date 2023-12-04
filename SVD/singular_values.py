@@ -15,7 +15,7 @@ g2d = np.exp(-(X**2 + Y**2) / (k/8))
 
 A = sp.signal.convolve2d(np.random.randn(m,n),g2d,'same')
 
-Ascaled = A*1
+Ascaled = A*123
 
 # svd
 

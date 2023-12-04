@@ -42,22 +42,17 @@ print('rank =',np.linalg.matrix_rank(reconImage))
 errormap = (reconImage-A)**2
 
 plt.subplot(131)
-plt.imshow(A)
+plt.imshow(A, vmin=-15,vmax=15)
 plt.title('Original')
 plt.axis('off')
 
 plt.subplot(132)
-plt.imshow(reconImage)
+plt.imshow(reconImage, vmin=-15,vmax=15)
 plt.title('Reconstruction')
 plt.axis('off')
 
-plt.subplot(131)
-plt.imshow(A)
-plt.title('Original')
-plt.axis('off')
-
 plt.subplot(133)
-plt.imshow(errormap, vmin=-1,vmax=1)
+plt.imshow(errormap, vmin=-15,vmax=15)
 plt.title('Error Map')
 plt.axis('off')
 

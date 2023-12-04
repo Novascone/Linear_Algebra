@@ -66,8 +66,7 @@ for i in range(0,5):
     plt.axis('off')
     plt.title('C.%d' %(i+1))
     
-plt.imshow(A)
-
 plt.show()
+
 
     

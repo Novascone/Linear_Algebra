@@ -5,9 +5,11 @@ S = [[ 1,  3, -2],
      [ 0,  3,  4],
      [-5, -2,  4] ]
 
-w = np.transpose([[-2,4,3]])
+w = np.transpose([[100,-1,100]])
 
 qf = w.T@S@w
+
+print(qf)
 
 n = len(w)
 
